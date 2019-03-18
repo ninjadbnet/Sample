@@ -1,0 +1,37 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Akka (1.3.12) - restriction: >= net452
+      Newtonsoft.Json (>= 9.0.1) - restriction: || (>= net45) (>= netstandard1.6)
+      System.Collections.Immutable (>= 1.5) - restriction: || (>= net45) (>= netstandard1.6)
+    Microsoft.AspNet.WebApi.Client (5.2.2) - restriction: >= net452
+      Newtonsoft.Json (>= 6.0.4) - restriction: >= portable-net45+win8+wp8+wp81+wpa81
+    Microsoft.AspNet.WebApi.Core (5.2.2) - restriction: >= net452
+      Microsoft.AspNet.WebApi.Client (>= 5.2.2)
+    Microsoft.AspNet.WebApi.OData (5.7) - restriction: >= net452
+      Microsoft.AspNet.WebApi.Client (>= 5.2.2)
+      Microsoft.AspNet.WebApi.Core (>= 5.2.2 < 5.3)
+      Microsoft.Data.OData (>= 5.6)
+    Microsoft.Azure.KeyVault.Core (1.0) - restriction: >= net452
+    Microsoft.CodeDom.Providers.DotNetCompilerPlatform (2.0) - restriction: >= net452
+    Microsoft.Data.Edm (5.6.4) - restriction: >= net452
+    Microsoft.Data.OData (5.6.4) - restriction: >= net452
+      Microsoft.Data.Edm (5.6.4)
+      System.Spatial (5.6.4)
+    Microsoft.Data.Services.Client (5.6.4) - restriction: >= net452
+      Microsoft.Data.OData (5.6.4)
+    Microsoft.Net.Compilers (2.10) - restriction: >= net452
+    Newtonsoft.Json (9.0.1) - restriction: >= net452
+    NinjaDB (0.0.3-pre) - restriction: >= net452
+      Akka (>= 1.3.12) - restriction: >= net45
+      Microsoft.AspNet.WebApi.OData (>= 5.7) - restriction: >= net45
+      Microsoft.CodeDom.Providers.DotNetCompilerPlatform (>= 2.0) - restriction: >= net45
+      Microsoft.Net.Compilers (>= 2.10) - restriction: >= net45
+      Newtonsoft.Json (>= 6.0.4) - restriction: >= net45
+      WindowsAzure.Storage (>= 7.2.1) - restriction: >= net45
+    System.Collections.Immutable (1.5) - restriction: >= net452
+    System.Spatial (5.6.4) - restriction: >= net452
+    WindowsAzure.Storage (7.2.1) - restriction: >= net452
+      Microsoft.Azure.KeyVault.Core (>= 1.0) - restriction: || (>= net40) (>= wp8)
+      Microsoft.Data.OData (>= 5.6.4) - restriction: || (>= net40) (&& (>= netstandard1.3) (< win8)) (&& (< netstandard1.3) (>= win8)) (>= wp8) (>= wpa81)
+      Microsoft.Data.Services.Client (>= 5.6.4) - restriction: || (>= net40) (&& (>= netstandard1.3) (< win8) (< wpa81))
+      Newtonsoft.Json (>= 6.0.8) - restriction: || (>= net40) (&& (< netstandard1.3) (>= win8)) (>= wp8) (>= wpa81)

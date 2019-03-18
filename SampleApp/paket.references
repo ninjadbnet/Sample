@@ -1,0 +1,15 @@
+Akka
+Microsoft.AspNet.WebApi.Client
+Microsoft.AspNet.WebApi.Core
+Microsoft.AspNet.WebApi.OData
+Microsoft.Azure.KeyVault.Core
+Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+Microsoft.Data.Edm
+Microsoft.Data.OData
+Microsoft.Data.Services.Client
+Microsoft.Net.Compilers
+Newtonsoft.Json
+NinjaDB
+System.Collections.Immutable
+System.Spatial
+WindowsAzure.Storage
